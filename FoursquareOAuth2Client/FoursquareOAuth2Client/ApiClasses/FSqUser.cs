@@ -18,14 +18,14 @@ namespace FoursquareOAuth2Client.ApiClasses
         //public Tips tips { get; set; }
         public string homeCity { get; set; }
         public string bio { get; set; }
-        //public FSqContact contact { get; set; }
+        public FSqContact contact { get; set; }
         public string checkinPings { get; set; }
         public bool pings { get; set; }
         public string type { get; set; }
         //public FSqVenue venue { get; set; }
         //public Badges badges { get; set; }
         //public Mayorships mayorships { get; set; }
-        //public FSqCheckins checkins { get; set; }
+        public FSqCheckins checkins { get; set; }
         //public Following following { get; set; }
         //public Requests requests { get; set; }
         //public Lists lists { get; set; }            

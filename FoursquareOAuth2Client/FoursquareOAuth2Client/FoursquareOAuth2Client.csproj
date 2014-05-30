@@ -71,6 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiClasses\FsqApiResponse.cs" />
+    <Compile Include="ApiClasses\FsqCheckins.cs" />
+    <Compile Include="ApiClasses\FSqContact.cs" />
     <Compile Include="ApiClasses\FsqMeta.cs" />
     <Compile Include="ApiClasses\FSqUser.cs" />
     <Compile Include="ApiClasses\UnparsedJSONField.cs" />
