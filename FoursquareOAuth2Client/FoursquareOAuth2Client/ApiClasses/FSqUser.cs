@@ -33,10 +33,15 @@ namespace FoursquareOAuth2Client.ApiClasses
         public int createdAt { get; set; }
         public string referralId { get; set; }
 
-        //all ignored segments will go here
+        //all ignored segments will go here (disable 'field not used' warning)
         [JsonExtensionData(ReadData = false, WriteData = false)]
+#pragma warning disable 0169
         private IDictionary<string, JToken> _additionalData;
+#pragma warning restore 0169
 
+        /// <summary>
+        /// Returns if the 'type' field has a value of venuePage
+        /// </summary>
         public bool isVenue()
         {
             return this.type == "venuePage";
